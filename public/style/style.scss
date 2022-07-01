@@ -505,7 +505,6 @@ h3.numero-piso{
             display: flex;
             flex-wrap: wrap;
             .un-estacionamiento{
-                background-color: orange;
                 margin: 10px;
                 width: 70px;
                 height: 90px;
@@ -535,8 +534,8 @@ h3.numero-piso{
                     background-color: red;
                     cursor: pointer;
                 }
-                &.libre{
-                    background-color: black;
+                &.libre, &.Libre{
+                    background-color: orange;
                 }
                 &.ocupado{
                     background: silver; //url("../img/car.svg") no-repeat center/contain;

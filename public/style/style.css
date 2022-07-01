@@ -603,7 +603,6 @@ h3.numero-piso {
 }
 
 .contenedor-estacionamiento .contenedor-piso .carro .un-estacionamiento, .contenedor-estacionamiento .contenedor-piso .moto .un-estacionamiento, .contenedor-estacionamiento .contenedor-piso .bicicleta .un-estacionamiento {
-  background-color: orange;
   margin: 10px;
   width: 70px;
   height: 90px;
@@ -641,8 +640,8 @@ h3.numero-piso {
   cursor: pointer;
 }
 
-.contenedor-estacionamiento .contenedor-piso .carro .un-estacionamiento.libre, .contenedor-estacionamiento .contenedor-piso .moto .un-estacionamiento.libre, .contenedor-estacionamiento .contenedor-piso .bicicleta .un-estacionamiento.libre {
-  background-color: black;
+.contenedor-estacionamiento .contenedor-piso .carro .un-estacionamiento.libre, .contenedor-estacionamiento .contenedor-piso .carro .un-estacionamiento.Libre, .contenedor-estacionamiento .contenedor-piso .moto .un-estacionamiento.libre, .contenedor-estacionamiento .contenedor-piso .moto .un-estacionamiento.Libre, .contenedor-estacionamiento .contenedor-piso .bicicleta .un-estacionamiento.libre, .contenedor-estacionamiento .contenedor-piso .bicicleta .un-estacionamiento.Libre {
+  background-color: orange;
 }
 
 .contenedor-estacionamiento .contenedor-piso .carro .un-estacionamiento.ocupado, .contenedor-estacionamiento .contenedor-piso .moto .un-estacionamiento.ocupado, .contenedor-estacionamiento .contenedor-piso .bicicleta .un-estacionamiento.ocupado {
